@@ -1,6 +1,5 @@
 import { CreditCard, Calendar, MapPin, Check, Wine } from "lucide-react";
 import dateImg from "@/assets/date-couple.png";
-import { Button } from "@/components/ui/button";
 
 const steps = [
   { icon: CreditCard, title: "Вы оба платите за себя", desc: "Небольшой взнос отсеивает тех, кто не дойдёт." },
@@ -39,11 +38,7 @@ const HowItWorks = () => {
               ))}
             </ol>
 
-            <Button variant="hero" size="lg" className="mt-10">
-              Что такое Wave →
-            </Button>
-
-            <div className="mt-8 p-6 rounded-2xl bg-secondary/60 border border-primary/10">
+            <div className="mt-10 p-6 rounded-2xl bg-secondary/60 border border-primary/10">
               <p className="text-sm font-semibold tracking-[0.15em] text-coral uppercase mb-3">Минск — наш дом</p>
               <p className="text-foreground/80 text-base leading-relaxed">
                 Мы сотрудничаем с нишевыми заведениями Минска — кафе, барами, арт-пространствами — и выбираем только те места, где рождается настоящая атмосфера. Вместе мы строим комьюнити людей, которые ценят живое общение, крутые места и настоящие эмоции. Wave — это не просто свидания, это новая культура знакомств в твоём городе.
