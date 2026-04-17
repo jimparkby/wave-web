@@ -15,7 +15,7 @@ const FinalCTA = () => {
           Хватит листать. Пора встречаться. Wave делает первое свидание лёгким.
         </p>
         <div className="mt-10 flex flex-wrap gap-4 justify-center">
-          <Button variant="coral" size="xl">Скачать Wave</Button>
+          <Button variant="coral" size="xl">Открыть Wave</Button>
           <Button variant="cream" size="xl">Как это работает</Button>
         </div>
       </div>

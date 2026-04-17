@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import sharksImg from "@/assets/wave-sharks.png";
+import appScreenImg from "@/assets/app-screen.png";
 
 const Hero = () => {
   return (
@@ -25,38 +25,21 @@ const Hero = () => {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-4 items-center">
-              <Button variant="coral" size="xl">Скачать Wave</Button>
+              <Button variant="coral" size="xl">Открыть Wave</Button>
               <a href="#how" className="text-cream/80 hover:text-cream underline underline-offset-4 text-sm font-medium">
                 Как это работает →
               </a>
-            </div>
-
-            <div className="mt-10 flex items-center gap-6 text-sm text-cream/60">
-              <div>
-                <div className="font-serif text-2xl text-cream">120k+</div>
-                <div>активных серферов</div>
-              </div>
-              <div className="w-px h-10 bg-cream/15" />
-              <div>
-                <div className="font-serif text-2xl text-cream">4.8★</div>
-                <div>в App Store</div>
-              </div>
-              <div className="w-px h-10 bg-cream/15 hidden sm:block" />
-              <div className="hidden sm:block">
-                <div className="font-serif text-2xl text-cream">15+</div>
-                <div>городов</div>
-              </div>
             </div>
           </div>
 
           <div className="relative flex justify-center lg:justify-end animate-fade-up" style={{ animationDelay: "0.15s" }}>
             <div className="relative">
               <div className="absolute -inset-8 bg-coral/20 blur-3xl rounded-full pointer-events-none" />
-              <div className="relative w-[280px] sm:w-[320px] md:w-[360px] aspect-[9/19] rounded-[3rem] bg-cream shadow-card overflow-hidden animate-float">
+              <div className="relative animate-float">
                 <img
-                  src={sharksImg}
+                  src={appScreenImg}
                   alt="Превью приложения Wave с двумя дружелюбными акулами-сёрферами"
-                  className="w-full h-full object-cover object-center"
+                  className="w-[280px] sm:w-[320px] md:w-[360px] h-auto rounded-[2rem] shadow-card"
                 />
               </div>
 
