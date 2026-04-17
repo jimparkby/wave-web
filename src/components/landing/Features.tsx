@@ -3,23 +3,23 @@ import { Shield, Clock, Heart, Sparkles } from "lucide-react";
 const features = [
   {
     icon: Shield,
-    title: "Verified & safe",
-    desc: "Every profile is photo-verified. Our hand-picked venues are public, vetted and welcoming.",
+    title: "Проверено и безопасно",
+    desc: "Каждый профиль с фото-верификацией. Все места встреч публичные и проверенные.",
   },
   {
     icon: Clock,
-    title: "Respect for your time",
-    desc: "No 3-week chats. We organise the date so you can focus on showing up.",
+    title: "Уважаем ваше время",
+    desc: "Никаких трёхнедельных переписок. Мы организуем свидание — вам остаётся прийти.",
   },
   {
     icon: Heart,
-    title: "Intentional daters",
-    desc: "Wave attracts people who actually want to meet — not collectors of matches.",
+    title: "Серьёзные намерения",
+    desc: "В Wave приходят те, кто действительно хочет встретиться, а не коллекционировать мэтчи.",
   },
   {
     icon: Sparkles,
-    title: "Curated by humans",
-    desc: "We hand-select the cafés, the playlists, the vibe. You bring the conversation.",
+    title: "Отобрано вручную",
+    desc: "Мы сами выбираем кафе, плейлисты, атмосферу. С вас — разговор.",
   },
 ];
 
@@ -28,9 +28,9 @@ const Features = () => {
     <section id="about" className="bg-primary text-primary-foreground py-24 md:py-32">
       <div className="container">
         <div className="max-w-3xl mb-16">
-          <span className="text-xs font-semibold tracking-[0.2em] text-coral uppercase">Why Wave</span>
+          <span className="text-xs font-semibold tracking-[0.2em] text-coral uppercase">Почему Wave</span>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl lg:text-6xl text-cream text-balance leading-tight">
-            Serious about <span className="italic">you</span> and your time.
+            Серьёзно о <span className="italic">вас</span> и вашем времени.
           </h2>
         </div>
 

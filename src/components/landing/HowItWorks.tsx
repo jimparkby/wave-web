@@ -3,11 +3,11 @@ import dateImg from "@/assets/date-couple.png";
 import { Button } from "@/components/ui/button";
 
 const steps = [
-  { icon: CreditCard, title: "You both commit by paying", desc: "A small fee keeps things serious — no flakers." },
-  { icon: Calendar, title: "Pick a day and time together", desc: "Coordinate in two taps, no endless DMs." },
-  { icon: MapPin, title: "We arrange the perfect spot", desc: "Hand-picked cafés, bars and walks near you." },
-  { icon: Check, title: "You both confirm your presence", desc: "Show up and check in when you arrive." },
-  { icon: Wine, title: "Time to meet offline and date!", desc: "Skip the small talk, ride the moment." },
+  { icon: CreditCard, title: "Вы оба платите за себя", desc: "Небольшой взнос отсеивает тех, кто не дойдёт." },
+  { icon: Calendar, title: "Выбираете дату и время", desc: "В пару тапов, без бесконечной переписки." },
+  { icon: MapPin, title: "Мы подбираем место", desc: "Проверенные кафе, бары и прогулки рядом с вами." },
+  { icon: Check, title: "Вы оба подтверждаете встречу", desc: "Приходите и отмечаетесь по прибытии." },
+  { icon: Wine, title: "Знакомитесь оффлайн!", desc: "Без банального смолтока — сразу к делу." },
 ];
 
 const HowItWorks = () => {
@@ -16,13 +16,13 @@ const HowItWorks = () => {
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="text-xs font-semibold tracking-[0.2em] text-coral uppercase">How Wave works</span>
+            <span className="text-xs font-semibold tracking-[0.2em] text-coral uppercase">Как работает Wave</span>
             <h2 className="mt-4 font-serif text-4xl md:text-5xl lg:text-6xl text-foreground text-balance leading-tight">
-              What happens<br /> after you <span className="italic">match?</span>
+              Что происходит<br /> после <span className="italic">мэтча?</span>
             </h2>
             <p className="mt-6 text-muted-foreground text-lg max-w-md">
-              Once you match, we arrange your first date at a safe location.
-              No penpal phase — meet people who actually show up.
+              Как только вы совпали, мы организуем вашу первую встречу в безопасном месте.
+              Никакой переписки на недели — только те, кто реально приходит.
             </p>
 
             <ol className="mt-10 space-y-6">
@@ -40,7 +40,7 @@ const HowItWorks = () => {
             </ol>
 
             <Button variant="hero" size="lg" className="mt-10">
-              How Wave works →
+              Что такое Wave →
             </Button>
           </div>
 
@@ -49,15 +49,15 @@ const HowItWorks = () => {
             <div className="relative bg-cream-soft rounded-[2rem] p-8 md:p-12 shadow-soft">
               <img
                 src={dateImg}
-                alt="Two people on a first date sharing a candle-lit moment"
+                alt="Пара на первом свидании при свечах"
                 loading="lazy"
                 width={1024}
                 height={1024}
                 className="w-full h-auto"
               />
               <div className="mt-6 text-center">
-                <p className="font-serif italic text-2xl text-primary">"Best first date I've ever had."</p>
-                <p className="text-sm text-muted-foreground mt-2">— Anna, Berlin</p>
+                <p className="font-serif italic text-2xl text-primary">«Лучшее первое свидание в моей жизни.»</p>
+                <p className="text-sm text-muted-foreground mt-2">— Аня, Берлин</p>
               </div>
             </div>
           </div>
