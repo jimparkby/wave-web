@@ -2,24 +2,24 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const faqs = [
   {
-    q: "How is Wave different from other dating apps?",
-    a: "We don't reward swiping or chatting forever. The moment you match, we arrange a real date at a curated venue. The result: more meaningful first dates, fewer wasted weeks.",
+    q: "Чем Wave отличается от других дейтинг-приложений?",
+    a: "Мы не поощряем бесконечный свайп и переписку. Как только вы совпали — мы сразу организуем встречу в проверенном месте. Больше настоящих свиданий, меньше потраченных недель.",
   },
   {
-    q: "Why do I have to pay for a date?",
-    a: "A small commitment fee filters out the flakers. Both people pay, both people show up — that's the deal. Most users say it's the best money they've spent on dating.",
+    q: "Зачем платить за свидание?",
+    a: "Небольшой взнос отсеивает тех, кто исчезает в последний момент. Платят оба — и оба приходят. Большинство пользователей говорят, что это лучшие деньги, потраченные на знакомства.",
   },
   {
-    q: "Is it safe?",
-    a: "Every profile is photo-verified. We choose public, vetted venues. You can check in on arrival and reach our safety team 24/7 from inside the app.",
+    q: "Это безопасно?",
+    a: "Каждый профиль проходит фото-верификацию. Места встреч — публичные и проверенные. По прибытии можно отметиться, а служба поддержки доступна 24/7 прямо в приложении.",
   },
   {
-    q: "What if Wave isn't in my city yet?",
-    a: "We're rolling out fast. Download the app to register interest — we'll let you know the moment Wave lands in your area.",
+    q: "А если Wave ещё нет в моём городе?",
+    a: "Мы быстро растём. Скачайте приложение и зарегистрируйте интерес — мы сообщим, как только Wave появится у вас.",
   },
   {
-    q: "Can I cancel a date?",
-    a: "Plans change — we get it. Cancel up to 24 hours before for a full refund. After that, the fee covers the venue's reservation.",
+    q: "Можно отменить свидание?",
+    a: "Планы меняются — это нормально. Отмена за 24 часа — полный возврат. Позже взнос покрывает бронь места.",
   },
 ];
 
@@ -28,9 +28,9 @@ const FAQ = () => {
     <section id="faq" className="bg-cream-soft py-24 md:py-32">
       <div className="container max-w-3xl">
         <div className="text-center mb-12">
-          <span className="text-xs font-semibold tracking-[0.2em] text-coral uppercase">FAQ</span>
+          <span className="text-xs font-semibold tracking-[0.2em] text-coral uppercase">Вопросы</span>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl lg:text-6xl text-foreground text-balance">
-            Curious? <span className="italic">We've got you.</span>
+            Интересно? <span className="italic">Мы всё расскажем.</span>
           </h2>
         </div>
 

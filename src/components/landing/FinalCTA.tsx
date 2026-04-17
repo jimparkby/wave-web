@@ -8,15 +8,15 @@ const FinalCTA = () => {
 
       <div className="container relative text-center max-w-3xl">
         <h2 className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream text-balance leading-[0.95]">
-          Love is worth<br />
-          the <span className="italic text-coral">leap.</span>
+          Любовь стоит<br />
+          того, чтобы <span className="italic text-coral">рискнуть.</span>
         </h2>
         <p className="mt-8 text-lg md:text-xl text-cream/75 max-w-xl mx-auto">
-          Stop scrolling. Start meeting. Wave makes the first date the easy part.
+          Хватит листать. Пора встречаться. Wave делает первое свидание лёгким.
         </p>
         <div className="mt-10 flex flex-wrap gap-4 justify-center">
-          <Button variant="coral" size="xl">Download Wave</Button>
-          <Button variant="cream" size="xl">How it works</Button>
+          <Button variant="coral" size="xl">Скачать Wave</Button>
+          <Button variant="cream" size="xl">Как это работает</Button>
         </div>
       </div>
     </section>

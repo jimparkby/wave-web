@@ -8,8 +8,8 @@ const Footer = () => {
           <div className="md:col-span-2">
             <span className="text-3xl font-serif font-bold text-coral lowercase">wave</span>
             <p className="mt-4 max-w-sm text-sm text-cream/60">
-              The dating app for people who'd rather meet than message.
-              Skip the chat, ride the date.
+              Приложение для тех, кто лучше встретится, чем будет писать.
+              Хватит чатиться — пора на свидание.
             </p>
             <div className="flex gap-3 mt-6">
               <a aria-label="Instagram" href="#" className="w-10 h-10 grid place-items-center rounded-full border border-cream/15 hover:bg-coral hover:border-coral transition-colors"><Instagram className="w-4 h-4" /></a>
@@ -19,29 +19,29 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-serif text-cream text-lg mb-4">Product</h4>
+            <h4 className="font-serif text-cream text-lg mb-4">Продукт</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#how" className="hover:text-coral transition-colors">How it works</a></li>
-              <li><a href="#cities" className="hover:text-coral transition-colors">Cities</a></li>
-              <li><a href="#faq" className="hover:text-coral transition-colors">FAQ</a></li>
-              <li><a href="#" className="hover:text-coral transition-colors">Host a Wave date</a></li>
+              <li><a href="#how" className="hover:text-coral transition-colors">Как это работает</a></li>
+              <li><a href="#cities" className="hover:text-coral transition-colors">Города</a></li>
+              <li><a href="#faq" className="hover:text-coral transition-colors">Вопросы</a></li>
+              <li><a href="#" className="hover:text-coral transition-colors">Стать партнёром</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-serif text-cream text-lg mb-4">Company</h4>
+            <h4 className="font-serif text-cream text-lg mb-4">Компания</h4>
             <ul className="space-y-2 text-sm">
-              <li><a href="#about" className="hover:text-coral transition-colors">About us</a></li>
-              <li><a href="#" className="hover:text-coral transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-coral transition-colors">Privacy</a></li>
-              <li><a href="#" className="hover:text-coral transition-colors">Terms</a></li>
+              <li><a href="#about" className="hover:text-coral transition-colors">О нас</a></li>
+              <li><a href="#" className="hover:text-coral transition-colors">Карьера</a></li>
+              <li><a href="#" className="hover:text-coral transition-colors">Конфиденциальность</a></li>
+              <li><a href="#" className="hover:text-coral transition-colors">Условия</a></li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-cream/10 flex flex-col sm:flex-row justify-between gap-4 text-xs text-cream/50">
-          <p>© {new Date().getFullYear()} Wave. Made with love for love.</p>
-          <p>Crafted in Amsterdam · Riding worldwide</p>
+          <p>© {new Date().getFullYear()} Wave. Сделано с любовью для любви.</p>
+          <p>Создано в Амстердаме · По всему миру</p>
         </div>
       </div>
     </footer>
